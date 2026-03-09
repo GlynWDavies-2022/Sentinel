@@ -12,7 +12,7 @@ public class EmployeesDataStore
     {
         Employees =
         [
-            new EmployeeDTO("Countryside", "12345", "Anne", "Alpha")
+            new EmployeeDTO()
         ];
     }
 }   

@@ -1,7 +1,17 @@
 ﻿namespace Sentinel.API.Models;
 
-public record EmployeeDTO(
-    string Company,
-    string StaffNumber,
-    string FirstName,
-    string LastName);
+public class EmployeeDTO
+{
+    public int Id { get; set; }
+    public string FirstName { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
+    public string FullName 
+    { 
+        get 
+        {
+            return $"{FirstName} {LastName}";
+        } 
+    }
+    public string Company { get; set; } = string.Empty;
+    public string StaffNumber { get; set; } = string.Empty;
+}

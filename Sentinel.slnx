@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Sentinel.API.Test/Sentinel.API.Test.csproj" Id="67efa66e-c57d-4ca3-870b-3d14b0fe6d20" />
   <Project Path="Sentinel.API/Sentinel.API.csproj" />
 </Solution>
